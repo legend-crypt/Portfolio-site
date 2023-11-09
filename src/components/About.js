@@ -6,15 +6,14 @@ function About() {
     return (
         <section className="row about">
             <div className="about__img">
-                <span>
+                <div className="avator__crop">
                     <img src={manCrop} alt="Man Avator" />
-                </span>
-
-                <span className="row">
-                    <img src={githubIcon} alt="gitHub" />
-                    <img src={linkedinIcon} alt="linkedIn" />
-                    <img src={twitterIcon} alt="twitter" />
-                </span>
+                </div>
+                <div className="row icons">
+                    <a href=""><img src={githubIcon} alt="gitHub" /></a>
+                    <a href=""><img src={linkedinIcon} alt="linkedIn" /></a>
+                    <a href=""><img src={twitterIcon} alt="twitter" /></a>
+                </div>
             </div>
             <div className="about__text">
                 <div className="about__text--primary">

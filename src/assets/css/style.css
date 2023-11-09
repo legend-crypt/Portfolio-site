@@ -157,8 +157,26 @@ a {
 }
 
 .about__text--secondary-btn-left{
-    margin-left: 2em;
+    margin-left: 1em;
     background-color: transparent;
     border: 1px solid #A53DFF;
     color: #A53DFF;
+}
+
+
+.avator__crop {
+    z-index: -1;
+    border: 2px solid salmon;
+    background-color: azure;
+    position: relative;
+}
+
+
+.icons {
+    margin-top: -2em;
+    position: relative;
+    border: 2px solid blue;
+    z-index: 999;
+    box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
+    background-color: blue;
 }
