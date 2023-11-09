@@ -1,0 +1,164 @@
+/* Set box-sizing to border-box using ::before and ::after */
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.hero__text--heading {
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+    color: #132238;
+
+}
+
+
+.hero__text--heading ~ p {
+    font-size: 1.2rem;
+    margin-bottom: 1.8em;
+    font-weight: 400;
+    text-align: left;
+    color: #556070
+
+}
+
+
+.about__text--primary > h2{
+    color: var(--gray-900, #132238);
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.about__text--primary > p{
+    color: var(--gray-700, #556070);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    /* margin-top: 1.5rem;
+    margin-bottom: 1.5rem; */
+}
+
+
+.header {
+    margin-bottom: 4em;
+}
+.nav__logo {
+    align-self: center;
+}
+.logo {
+    width: 70%;
+}
+
+.nav {
+    /* flex-grow: 1; */
+    border: 1px solid #000;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 2.5em;
+    border:  1px solid #d1d477;
+    margin-left: auto;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn__normal {
+    background: #A53DFF;
+    padding: 0.8em 1.4em;
+    border-radius: 0.2em;
+    border: 0px;
+    color: aliceblue;
+}
+
+
+.btn__normal:hover {
+    opacity:   0.7;
+    cursor: pointer;
+}
+
+
+.hero__text {
+    width: 50%;
+
+}
+
+.hero__image {
+    width: 30%;
+}
+
+.hero__text--primary {
+    margin-bottom: 8.3em;
+    margin-top: 6em;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    border: 2px solid #6f7bec;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    /* background-image: linear-gradient(130deg, white, #C4F5E9, #DA4DF1);
+    padding: 3em 0em */
+}
+
+.about {
+    padding: 3em 0em;
+    box-shadow: 0px 36px 105px 0px rgba(43, 56, 76, 0.10);
+    border-radius: 16px;
+    /* margin: 0 auto; */
+    
+}
+
+.about__text {
+    width: 50%;
+    margin:auto auto;
+    
+}
+
+
+.about__img{
+    width: 30%;
+    margin:0 auto;    
+}
+
+.about__text--secondary-btn-left{
+    margin-left: 2em;
+    background-color: transparent;
+    border: 1px solid #A53DFF;
+    color: #A53DFF;
+}
