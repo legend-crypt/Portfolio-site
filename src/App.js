@@ -1,13 +1,11 @@
 import "./assets/css/style.css";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
+import GradientBackground from "./components/GradientBackground";
 function App() {
   return (
-    <div className='container'>
+    <div>
       <Navbar />
-      <Hero />
-      <About />
+      <GradientBackground />
     </div>
   );
 }

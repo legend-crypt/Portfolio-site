@@ -13,6 +13,8 @@ html {
 body {
     font-size: 16px;
     font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -24,6 +26,7 @@ img {
 a {
     text-decoration: none;
 }
+
 
 .hero__text--heading {
     font-size: 4.5rem;
@@ -57,13 +60,17 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 1.75rem;
-    /* margin-top: 1.5rem;
-    margin-bottom: 1.5rem; */
 }
 
+.main {
+    margin: 0 0;
+    background-image: repeating-linear-gradient(24deg, rgba(255,234,198,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 80%, rgba(219, 163, 254, 0.521) 100%);
+    width: 100%;
+}
 
 .header {
-    margin-bottom: 4em;
+    margin-bottom: 1.5em;
+    padding: 0.8em 0;
 }
 .nav__logo {
     align-self: center;
@@ -74,19 +81,26 @@ a {
 
 .nav {
     /* flex-grow: 1; */
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
+    padding: auto auto;
+    width: 60%;
 }
 
 .nav__list {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: space-between;
     list-style: none;
-    gap: 2.5em;
-    border:  1px solid #d1d477;
-    margin-left: auto;
+    /* border:  1px solid #77d4c0; */
     font-size: 1rem;
     font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.col + .col {
+    margin-left: 0.5em;
 }
 
 .btn__normal {
@@ -123,7 +137,7 @@ a {
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
-    border: 2px solid #6f7bec;
+    /* border: 2px solid #6f7bec; */
 }
 
 .row {
@@ -138,8 +152,13 @@ a {
 
 .about {
     padding: 3em 0em;
-    box-shadow: 0px 36px 105px 0px rgba(43, 56, 76, 0.10);
+    /* border: 2px solid #6f7bec; */
     border-radius: 16px;
+    background: #fefefe;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: -5em;
+    margin-top: 5em;
+
     /* margin: 0 auto; */
     
 }
@@ -153,7 +172,7 @@ a {
 
 .about__img{
     width: 30%;
-    margin:0 auto;    
+    margin:auto auto;    
 }
 
 .about__text--secondary-btn-left{
@@ -165,9 +184,9 @@ a {
 
 
 .avator__crop {
-    z-index: -1;
-    border: 2px solid salmon;
-    background-color: azure;
+    z-index: 1;
+    /* border: 2px solid salmon;
+    background-color: azure; */
     position: relative;
 }
 
@@ -175,8 +194,13 @@ a {
 .icons {
     margin-top: -2em;
     position: relative;
-    border: 2px solid blue;
     z-index: 999;
-    box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
-    background-color: blue;
+    background: #fcfcfe;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.icons a:hover {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
