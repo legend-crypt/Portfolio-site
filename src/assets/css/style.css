@@ -17,6 +17,11 @@ body {
     margin: 0;
 }
 
+:root {
+    --heading-color: #132238;
+    --paragraph-color: #556070;
+  }
+  
 
 img {
     width: 100%;
@@ -32,7 +37,7 @@ a {
     font-size: 4.5rem;
     font-weight: 600;
     margin-bottom: 0.3em;
-    color: #132238;
+    color: var(--heading-color);
 
 }
 
@@ -42,24 +47,36 @@ a {
     margin-bottom: 1.8em;
     font-weight: 400;
     text-align: left;
-    color: #556070
+    color: var(--paragraph-color);
 
 }
 
 
 .about__text--primary > h2{
-    color: var(--gray-900, #132238);
+    color: var(--heading-color);
     font-size: 2.375rem;
     font-style: normal;
     font-weight: 600;
 }
 
 .about__text--primary > p{
-    color: var(--gray-700, #556070);
+    color: var(--paragraph-color);
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.75rem;
+}
+
+
+.work-process__primary > h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--heading-color)
+}
+
+
+.work-process__primary > p {
+    color: var(--paragraph-color);
 }
 
 .main {
@@ -156,7 +173,6 @@ a {
     border-radius: 16px;
     background: #fefefe;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: -5em;
     margin-top: 5em;
 
     /* margin: 0 auto; */
@@ -203,4 +219,49 @@ a {
 }
 .icons a:hover {
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.work-process {
+    background: #F0F1F3;
+    padding: 3em 0;
+    position: relative;
+    z-index: -1;
+}
+
+
+.work-process__primary {
+    margin: auto 0;
+    width: 30%;
+}
+
+
+
+.work-process__secondary {
+    width: 50%;
+    display: flex;
+    margin: auto 0;
+    justify-content: space-between;
+}
+
+.work-process__secondary-col {
+    margin: 5em auto;
+}
+
+
+.work-process__secondary-col + .work-process__secondary-col {
+    border: 2px solid greenyellow;
+    margin-top: 6em;
+}
+
+.work-process__secondary-col--primary {
+    border-radius: 8px;
+    background: #fcfcfe;
+    padding: 2em 2em;
+    margin: 0.7em;
+}
+
+
+.work-process__icons {
+    width: 30%;
 }
