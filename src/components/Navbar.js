@@ -9,21 +9,21 @@ function Navbar({showContactButton}) {
                 <nav className="nav">
                     <ul className="nav__list">
                         <a href="">
-                            <li className= "col">Home</li>
+                            <li className= "nav__list--text col">Home</li>
                         </a>
                         <a href="">
-                            <li className= "col">About</li>
+                            <li className= "nav__list--text col">About</li>
                         </a>
                         <a href="">
-                            <li className= "col">Portfolio</li>
+                            <li className= "nav__list--text col">Portfolio</li>
                         </a>
                         <a href="">
-                            <li className= "col">Blog</li>
+                            <li className= "nav__list--text col">Blog</li>
                         </a>
                                                 
                         {showContactButton && (
                         <a href="">
-                            <button className='btn__normal col'>Contact</button>
+                            <button className='btn__normal nav__list--text col'>Contact</button>
                         </a>
                         )}
                     </ul>

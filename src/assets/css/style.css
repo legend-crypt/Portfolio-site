@@ -32,6 +32,10 @@ a {
     text-decoration: none;
 }
 
+.nav__list--text {
+    color: var(--heading-color)
+}
+
 
 .hero__text--heading {
     font-size: 4.5rem;
@@ -193,6 +197,7 @@ a {
     margin-bottom: 1.5em;
     padding: 0.8em 0;
 }
+
 .nav__logo {
     align-self: center;
 }
@@ -205,12 +210,13 @@ a {
     /* border: 1px solid #000; */
     padding: auto auto;
     width: 60%;
+    margin-left: auto;
 }
 
 .nav__list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     list-style: none;
     /* border:  1px solid #77d4c0; */
     font-size: 1rem;
@@ -218,11 +224,11 @@ a {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
+    gap: 1.5em;
+    margin-left: auto;
+    color: var(--heading-color);
 }
 
-.col + .col {
-    margin-left: 0.5em;
-}
 
 .btn__normal {
     background: #A53DFF;
