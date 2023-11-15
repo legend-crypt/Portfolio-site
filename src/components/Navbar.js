@@ -1,5 +1,5 @@
 import logo from '../assets/images/Logo_name.svg'
-function Navbar() {
+function Navbar({showContactButton}) {
     return (
         <header className="header container">
             <div class="row">
@@ -20,9 +20,12 @@ function Navbar() {
                         <a href="">
                             <li className= "col">Blog</li>
                         </a>
+                                                
+                        {showContactButton && (
                         <a href="">
-                            <li className='btn__normal col'>Contact</li>
+                            <button className='btn__normal col'>Contact</button>
                         </a>
+                        )}
                     </ul>
                 </nav>
             </div>

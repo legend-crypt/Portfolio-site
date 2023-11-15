@@ -154,6 +154,35 @@ a {
 }
 
 
+.footer__col--left > h3 {
+    color: var(--heading-color);
+    font-size: 2.375rem;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+} 
+
+
+.footer__col--left > p {
+    font-size: 1.125rem;
+    color: var(--paragraph-color);
+}
+
+
+.footer__col--card--right > p {
+    font-size: 0.8rem;
+    margin-top: 0.3em;
+    margin-bottom: 0;
+}
+
+.footer__col--card--right > h4 {
+    font-size: 0.875rem;
+    margin-bottom: 0.3em;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+
+
 .main {
     margin: 0 0;
     background-image: repeating-linear-gradient(24deg, rgba(255,234,198,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 80%, rgba(219, 163, 254, 0.521) 100%);
@@ -436,4 +465,115 @@ a {
 
 .expert__col--secondary:hover {
     border-left: 5px solid #A53DFF;
+}
+
+
+
+.footer {
+    padding: 4em 0;
+    border-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+
+
+.footer__col--left {
+    width: 45%;
+    margin-left: auto;
+}
+
+
+.footer__col--left > .row {
+    align-items: center;
+    justify-content: center;
+    gap: 0.3em;
+    margin-bottom: 2.5em;
+}
+
+
+.footer__col--card:hover {
+    background: #fcfcfe;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0.5em;
+}
+.footer__col--card {
+    width: 45%;
+    /* border: 2px solid #c5f1e5; */
+    margin-top: 1em;
+
+}
+
+.footer__col--card--left {
+    width: 20%;
+    margin-left: auto;
+    background: #edd8ff73;
+    padding: 0.2em 0;
+    border-radius: 5px;
+
+}
+
+.footer__col--card--left > img {
+    width: 80%;
+    margin-left: auto;
+}
+
+
+
+.footer__col--card--right {
+    width: 75%;
+    padding: 0.2em 0;
+    margin-top: 0;
+}
+
+
+.footer__container--small {
+    background: #fcfcfe;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2em 0;
+    border-radius: 8px;
+}
+
+
+.footer__col--right {
+    width: 45%;
+    margin-right: auto;
+    align-self: center;
+}
+
+
+.form > .btn__normal {
+    margin-top: 1.3em;
+}
+
+input, textarea {
+    display: block;
+    /* border: 2px solid coral; */
+    border: none;
+    border-bottom: 2px solid #cac6ce;
+    padding: 1em 0;
+    width: 100%;
+    outline: none; /* Remove default focus outline */
+
+}
+
+input:focus, textarea:focus {
+    border: none;
+    border-bottom: 2px solid #A53DFF;
+    
+}
+
+.footer__container {
+    background: #2B384C;
+    padding: 4em 0;
+    margin-top: -7em;
+    position: relative;
+    /* z-index: -1; */
+    color: #fcfcfe;
+    margin-bottom: 0;
+}
+
+.footer__container > .container {
+    position: relative;
+    z-index: 9999;
 }

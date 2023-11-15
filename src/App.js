@@ -6,16 +6,18 @@ import Portfolio from "./components/Portfolio";
 import Blog from "./components/Blog";
 import WhatIDo from "./components/WhatIDo";
 import Form from "./components/Form";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <Navbar />
+      <Navbar showContactButton={true}/>
       <GradientBackground />
       <WorkProcess />
       <Portfolio />
       <Blog />
       <WhatIDo />
       <Form />
+      <Footer />
     </div>
   );
 }
