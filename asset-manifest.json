@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio-site/static/css/main.00a29554.css",
-    "main.js": "/Portfolio-site/static/js/main.0d3c931a.js",
-    "static/js/787.789f00e6.chunk.js": "/Portfolio-site/static/js/787.789f00e6.chunk.js",
-    "static/media/unsplash_3.png": "/Portfolio-site/static/media/unsplash_3.71158bdf4f460527130b.png",
-    "static/media/unsplash_1.png": "/Portfolio-site/static/media/unsplash_1.22ecdd99923cd2c0e14b.png",
+    "main.css": "/Portfolio-site/static/css/main.d60407f4.css",
+    "main.js": "/Portfolio-site/static/js/main.404ad2d4.js",
+    "static/js/787.e5227ca1.chunk.js": "/Portfolio-site/static/js/787.e5227ca1.chunk.js",
+    "static/media/two-pointers.jpg": "/Portfolio-site/static/media/two-pointers.f3ac5bdb2334a2620c93.jpg",
+    "static/media/django.jpg": "/Portfolio-site/static/media/django.505df75e5fe07879594f.jpg",
+    "static/media/linkedList.jpg": "/Portfolio-site/static/media/linkedList.b49fad27259dbad74d28.jpg",
+    "static/media/successbuilders.png": "/Portfolio-site/static/media/successbuilders.b05bad47b6181cbf7505.png",
+    "static/media/purplewig.png": "/Portfolio-site/static/media/purplewig.23ead41cc074efc1375a.png",
+    "static/media/cleanservice_1.png": "/Portfolio-site/static/media/cleanservice_1.fcd70efae4e59da671b0.png",
+    "static/media/my_resume.pdf": "/Portfolio-site/static/media/my_resume.a3ccab1676ceda75e20c.pdf",
     "static/media/Man2.png": "/Portfolio-site/static/media/Man2.e554ece1d0b2d6e2fd40.png",
     "static/media/Man2_crop.png": "/Portfolio-site/static/media/Man2_crop.1e6e5b79999c32ef11d3.png",
     "static/media/stacks.svg": "/Portfolio-site/static/media/stacks.4909ca8523be94d0c82a2b2c15d93b5f.svg",
@@ -22,12 +27,12 @@
     "static/media/pen.svg": "/Portfolio-site/static/media/pen.f3caa96cadc2972e62e16cae53f2df81.svg",
     "index.html": "/Portfolio-site/index.html",
     "static/media/ci_hamburger.svg": "/Portfolio-site/static/media/ci_hamburger.056ede356e817f8e5faa98a95f90b9fd.svg",
-    "main.00a29554.css.map": "/Portfolio-site/static/css/main.00a29554.css.map",
-    "main.0d3c931a.js.map": "/Portfolio-site/static/js/main.0d3c931a.js.map",
-    "787.789f00e6.chunk.js.map": "/Portfolio-site/static/js/787.789f00e6.chunk.js.map"
+    "main.d60407f4.css.map": "/Portfolio-site/static/css/main.d60407f4.css.map",
+    "main.404ad2d4.js.map": "/Portfolio-site/static/js/main.404ad2d4.js.map",
+    "787.e5227ca1.chunk.js.map": "/Portfolio-site/static/js/787.e5227ca1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00a29554.css",
-    "static/js/main.0d3c931a.js"
+    "static/css/main.d60407f4.css",
+    "static/js/main.404ad2d4.js"
   ]
 }
