@@ -7,17 +7,31 @@ import Blog from "./components/Blog";
 import WhatIDo from "./components/WhatIDo";
 import Form from "./components/Form";
 import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div>
       <Navbar showContactButton={true}/>
-      <GradientBackground />
-      <WorkProcess />
+      {/* <WorkProcess />
       <Portfolio />
       <Blog />
       <WhatIDo />
-      {/* <Form /> */}
-      <Footer />
+      <Form />
+      <Footer /> */}
+
+        <Routes>
+          <Route path="/" element={<GradientBackground />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/work-process" element={<WorkProcess />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/what-i-do" element={<WhatIDo />} />
+          <Route path="/form" element={<Form />} />
+        </Routes>
+        {/* <Form />
+        <Footer /> */}
     </div>
   );
 }

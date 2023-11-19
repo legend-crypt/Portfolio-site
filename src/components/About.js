@@ -2,9 +2,11 @@ import manCrop from "../assets/images/Man2_crop.png";
 import githubIcon from "../assets/images/teenyicons_github-solid.svg";
 import linkedinIcon from "../assets/images/devicon-plain_linkedin.svg";
 import twitterIcon from "../assets/images/uim_twitter.svg";
+import { Link } from "react-router-dom";
+import resume from '../assets/files/my_resume.pdf';
 function About() {
     return (
-        <section className="row about container">
+        <section className="row about container" id="about">
             <div className="about__img">
                 <div className="avator__crop">
                     <img src={manCrop} alt="Man Avator" />
@@ -24,8 +26,8 @@ function About() {
                     </p>
                 </article>
                 <div className="about__text--secondary">
-                    <a href="#"><button className="btn__normal about__text--secondary-btn">My Projects</button></a>
-                    <a href="#"><button className=" btn__normal about__text--secondary-btn-left">Download Resume</button></a>
+                    <Link to="/form"><button className="btn__normal about__text--secondary-btn">My Projects</button></Link>
+                    <a href={resume} download="resume.pdf"><button className=" btn__normal about__text--secondary-btn-left">Download Resume</button></a>
                 </div>
             </div>
         </section>

@@ -1,5 +1,6 @@
-import Man2 from '../assets/images/Man2.png'
-import stacks from '../assets/images/stacks.svg'
+import Man2 from '../assets/images/Man2.png';
+import stacks from '../assets/images/stacks.svg';
+import {Link} from 'react-router-dom';
 function Hero() {
     return (
             <div className="hero row container">
@@ -7,7 +8,7 @@ function Hero() {
                     <div class="hero__text--primary">
                         <h1 className="hero__text--heading">Hello, I’m Lord Konadu</h1>
                         <p>A Full-Stack Developer based in Ghana, dedicated to creating immersive and visually appealing web applications through meticulously crafted code and a user-centric design approach.</p>
-                        <a href="#" className="btn__normal">Say Hello</a>
+                        <a href="mailto:konadulordkweku@gmail.com" target="_blank" className="btn__normal">Say Hello</a>
                     </div>
                     <div className="hero__text--secondary">
                         <img src={stacks} alt="hero" />

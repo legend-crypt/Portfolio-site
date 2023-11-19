@@ -3,7 +3,7 @@ import mailicon from '../assets/images/mail.svg';
 import phoneicon from '../assets/images/phone.svg';
 function Form () {
     return (
-        <section className="footer">
+        <section className="footer" id="form">
             <div className="container">
                 <section className="footer__container--small row">
                     <div className="footer__col--left">
