@@ -27,7 +27,7 @@ function Navbar({showContactButton}) {
                 <nav className="nav">
                     <ul id="nav__list" className={clicked? "#nav_list active": "#nav_list"}>
                         <a href="">
-                            <li className= "nav__list--text col">Home</li>
+                            <li className= "nav_list--first nav__list--text col">Home</li>
                         </a>
                         <a href="">
                             <li className= "nav__list--text col">About</li>

@@ -16,7 +16,7 @@ function App() {
       <Portfolio />
       <Blog />
       <WhatIDo />
-      <Form />
+      {/* <Form /> */}
       <Footer />
     </div>
   );
