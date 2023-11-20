@@ -22,7 +22,7 @@ function Blog() {
                             </div>
                         </div>
                         <div className='portfolio__primary--card'>
-                            <img src={twoPointers} alt="pc" />
+                            <img src={twoPointers} alt="DSA" />
                             <div className="portfolio__primary--card-secondary">
                                 <p>Data Structures & Algorithm</p>
                                 <h4>Two Pointers</h4>
@@ -31,7 +31,7 @@ function Blog() {
                             </div>
                         </div>
                         <div className='portfolio__primary--card'>
-                            <img src={linkedList} alt="pc" />
+                            <img src={linkedList} alt="LinkedList" />
                             <div className="portfolio__primary--card-secondary">
                                 <p>Data Structures & Algorithm</p>
                                 <h4>Dummy Heads</h4>
