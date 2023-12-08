@@ -21,7 +21,7 @@ function Portfolio() {
                     </div>
 
                     <div className='portfolio__primary--card'>
-                        <img src={PortfolioPic_2} alt="pc" />
+                        <img src={PortfolioPic_3} alt="pc" />
                         <div className="portfolio__primary--card-secondary">
                             <p>Stack: JavaScript, Django</p>
                             <h4>Purple Wig</h4>
@@ -31,7 +31,7 @@ function Portfolio() {
                     </div>
 
                     <div className='portfolio__primary--card'>
-                        <img src={PortfolioPic_3} alt="pc" />
+                        <img src={PortfolioPic_2} alt="pc" />
                         <div className="portfolio__primary--card-secondary">
                             <p>Stack: React Native, Django</p>
                             <h4>Cleans</h4>
