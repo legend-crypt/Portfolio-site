@@ -26,7 +26,7 @@ function About() {
                     </p>
                 </article>
                 <div className="about__text--secondary">
-                    <Link to="/form"><button className="btn__normal about__text--secondary-btn">My Projects</button></Link>
+                    <Link to="/portfolio"><button className="btn__normal about__text--secondary-btn">My Projects</button></Link>
                     <a href={resume} download="resume.pdf"><button className=" btn__normal about__text--secondary-btn-left">Download Resume</button></a>
                 </div>
             </div>
