@@ -411,7 +411,11 @@ a {
     width: 30%;
 }
 
-
+.portfolio__primary--card img {
+    width: 100%;
+    border-radius: 8px;
+    height: 12em;
+}
 .portfolio__primary--card button{
     padding: 1em 2em;
     border-radius: 4px;

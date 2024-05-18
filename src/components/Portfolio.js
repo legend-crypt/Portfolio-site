@@ -1,6 +1,6 @@
 import PortfolioPic from '../assets/images/successbuilders.png'
 import PortfolioPic_2 from '../assets/images/cleanservice_1.png'
-import PortfolioPic_3 from '../assets/images/purplewig.png';
+import PortfolioPic_3 from '../assets/images/OM_img.png';
 function Portfolio() {
     return (
         <div className="portfolio" id="portfolio">
@@ -19,17 +19,15 @@ function Portfolio() {
                             <a href='https://successbuilderhub.com/' target='_blank'><button className='about__text--secondary-btn-left'>Chekckout</button></a>
                         </div>
                     </div>
-
                     <div className='portfolio__primary--card'>
                         <img src={PortfolioPic_3} alt="pc" />
                         <div className="portfolio__primary--card-secondary">
-                            <p>Stack: JavaScript, Django</p>
-                            <h4>Purple Wig</h4>
-                            <p>Working with a team to develop a booking system for client for managing the customer booking for services.</p>
-                            <a href='https://github.com/Goldac77/purplewigfix' target='_blank'><button className='about__text--secondary-btn-left'>Chekckout</button></a>
+                            <p>Stack: React js, Django</p>
+                            <h4>Open Mentors</h4>
+                            <p>Open Mentors was created to bridge the gap in access to mentorship and learning opportunities within the open-source community.</p>
+                            <a href='https://openmentors.vercel.app/' target='_blank'><button className='about__text--secondary-btn-left'>Chekckout</button></a>
                         </div>
                     </div>
-
                     <div className='portfolio__primary--card'>
                         <img src={PortfolioPic_2} alt="pc" />
                         <div className="portfolio__primary--card-secondary">
